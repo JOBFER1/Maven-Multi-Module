@@ -19,7 +19,7 @@ Cada uno de los subdirectorios contiene un proyecto Maven. El contenido de cada 
 ## Preparación
 Empieza el ejercicio clonando el repositorio del proyecto. Para ello, ejecuta:
 ```
-git clone http://sing.ei.uvigo.es/dt/gitlab/dgss/maven-multi-module.git
+git clone http://sing.ei.uvigo.es/dt/gitlab/dgss-1617/maven-multi-module.git
 ```
 
 ## Ejercicio 1. Ejecuta la aplicación
