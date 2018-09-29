@@ -49,6 +49,20 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<configuration>
+					<systemProperties>
+						<systemProperty>
+							<key>db.url</key>
+							<value>jdbc:derby:target/composite;create=true</value>
+						</systemProperty>
+						<systemProperty>
+							<key>db.login</key>
+							<value></value>
+						</systemProperty>
+						<systemProperty>
+							<key>db.password</key>
+							<value></value>
+						</systemProperty>
+					</systemProperties>
 					<mainClass>es.uvigo.esei.xcs.composite.view.PersonManager</mainClass>
 				</configuration>
 			</plugin>
