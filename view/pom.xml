@@ -2,6 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>es.uvigo.esei.xcs.composite</groupId>
+		<artifactId>maven-multi-module</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
 	<groupId>es.uvigo.esei.xcs.composite</groupId>
 	<artifactId>view</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -24,18 +30,15 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<version>1.4.190</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
-			<version>10.12.1.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -45,7 +48,6 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.2.1</version>
 				<configuration>
 					<mainClass>es.uvigo.esei.xcs.composite.view.PersonManager</mainClass>
 				</configuration>
