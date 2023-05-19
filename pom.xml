@@ -8,9 +8,9 @@
     <packaging>pom</packaging>
 
 	<properties>
-	    <maven.compiler.target>8</maven.compiler.target>
-	    <maven.compiler.source>8</maven.compiler.source>
-	     <cobertura.version>2.7</cobertura.version>
+	    <maven.compiler.target>1.8</maven.compiler.target>
+	    <maven.compiler.source>1.8</maven.compiler.source>
+	    <cobertura.version>2.7</cobertura.version>
 	</properties>
 
     <name>Composite Sample - Maven-Multi-Module</name>
