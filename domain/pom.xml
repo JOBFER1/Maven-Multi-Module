@@ -26,4 +26,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+    <distributionManagement>
+        <repository>
+            <id>repo-mexus</id>
+            <name>repo-mexus</name>
+            <url>http://localhost:8081/repository/repo-nexus/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://localhost:8081/repository/repo-nexus/</url>
+        </snapshotRepository>
+    </distributionManagement>	
 </project>
